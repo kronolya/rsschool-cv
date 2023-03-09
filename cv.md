@@ -3,8 +3,9 @@
 ## *Contact information*:  
 1. **Phone:** +571475071
 2. **E-mail:**  ammmbra@gmail.com
-3. **Telegram:** @PinkOfja
+3. **Telegram:** @PinkOffja
 4. **GitHub:** @kronolya
+5. **Discord:** kronolya#5979
 
 ## *Language*: 
 - *Russian* (Native)
