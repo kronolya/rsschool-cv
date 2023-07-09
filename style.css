@@ -40,3 +40,8 @@ html {
   height: auto;
   padding: 0 10px;
 }
+
+.footer {
+  line-height: 10px;
+  color: grey;
+}
