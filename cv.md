@@ -1,5 +1,6 @@
 # Olga Tarasova  
-[foto](/photo%20cv.png)
+
+[foto](/photocv.png)
 
 ## *Contact information:*
 
