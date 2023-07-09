@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kronolya.github.io/rsschool-cv/cv
