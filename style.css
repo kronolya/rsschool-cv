@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  line-height: 36px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.header {
+  color: cadetblue;
+  text-decoration: underline;
+}
+
+.item {
+  color: cadetblue;
+  font-style: italic;
+  background-color: beige;
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
