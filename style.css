@@ -1,15 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
-  border: 5px solid red;
+  border: 5px solid gray;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 1em;
+  padding: 10px 50px 10px 20px;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  line-height: 36px;
+  line-height: 40px;
 }
 
 * {
@@ -21,19 +23,20 @@ html {
 }
 
 .header {
-  color: cadetblue;
+  color: rgb(69, 111, 112);
   text-decoration: underline;
-}
+  padding: 0 20px;
+  }
 
 .item {
-  color: cadetblue;
+  color: rgb(69, 109, 110);
   font-style: italic;
-  background-color: beige;
+  background-color: rgb(204, 201, 201);
   padding: 10px;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.image {
+  width: 250px;
+  height: auto;
+  padding: 0 10px;
 }
