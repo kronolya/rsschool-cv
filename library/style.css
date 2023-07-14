@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face { 
+  font-family: "ForumRegular";
+  src: url("../library/fonts/ForumRegular/ForumRegular.eot");
+  src: url("../library/fonts/ForumRegular/ForumRegular.eot")format("embedded-opentype"),
+  url("../library/fonts/ForumRegular/ForumRegular.woff") format("woff"),
+  url("../library/fonts/ForumRegular/ForumRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header {
+  background-color: black;
+  width: 1440px;
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+li {
+  display: inline;
+}
+
+.header-item {
+  color: #fff;
+  width: 294px;
+  height: 50px;
+  float: left;
+  align-items: center;
+}
+
+.nav-item {
+ color: #fff; 
+}
+
+.nav-list {
+ width: 720px;
+ height: 90px;  
+ text-align: justify;
+ float: right;
+}
+
+.welcome {
+  width: 1440px;
+  height: 600px;
+  position: relative;
+}
+
+.welcome-text {
+  width: 600px;
+  height: 220px;
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: azure;
+  background-color: #0C0C0E;
+  text-align: center;
+  position: absolute;
+  top: 220px;
+} 
