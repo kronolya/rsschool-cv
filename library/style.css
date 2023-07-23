@@ -99,8 +99,8 @@ li {
 
 .about-text {
   font-size: 20px;
-margin-top: 125px;
-margin-bottom: 20px;
+  margin-top: 125px;
+  margin-bottom: 20px;
 }
 
 .about-image {
@@ -128,6 +128,43 @@ h2 {
   height: 1439px;
   text-align: center;
   vertical-align: middle;
+}
+
+.favorites-block {
+  width: 1440px;
+  height: 1150px;
+}
+
+.favorites-block-text {
+  display: inline-block;
+}
+
+.favorites-book {
+  width: 590px;
+  height: 555px;
+}
+
+.book {
+  width: 200px;
+  height: 300px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.favorites-text {
+  width: 550px;
+  height: 555px;
+  text-align: left;
+  border: 1px solid black;
+  padding: 10px;
+}
+ 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
 }
 
 .coffee-shop {
