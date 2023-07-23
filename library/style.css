@@ -24,7 +24,8 @@ html {
   height: 90px;
   justify-content: space-between;
   display: flex;
-}
+  padding-left: 10px;
+  }
 
 
 li {
@@ -35,12 +36,17 @@ li {
   color: #fff;
   width: 294px;
   height: 50px;
-  float: left;
-  align-items: center;
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 30;
+  line-height: 70px;
 }
 
 .nav-item {
- color: #fff; 
+ color: #fff;
+ font-family: "ForumRegular", "Arial", sans-serif;
+ font-size: 20px;
+
 }
 
 .nav-list {
@@ -48,6 +54,8 @@ li {
  height: 90px;  
  text-align: justify;
  float: right;
+ line-height: 70px;
+
 }
 
 .welcome {
@@ -68,3 +76,129 @@ li {
   position: absolute;
   top: 220px;
 } 
+ 
+.about {
+  width: 1440px;
+  height: 837px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.about-block {
+  width: 106px;
+  height: 61px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line {
+  border-bottom: 1px solid #0C0C0E;
+  width: 50px;
+}
+
+.about-text {
+  font-size: 20px;
+margin-top: 125px;
+margin-bottom: 20px;
+}
+
+.about-image {
+  width: 1400px;
+  height: 560;
+  display: block;
+  margin: 0 auto;
+}
+
+.image {
+  width: 450px;
+  height: 560px;
+}
+
+h2 {
+ font-family: "ForumRegular", "Arial", sans-serif;
+ font-size: 40px;
+ color: #0C0C0E;
+ font-weight: 200;
+ display: inline-block;
+}
+
+.favorites {
+  width: 1440px;
+  height: 1439px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.coffee-shop {
+  width: 1440px;
+  height: 841px;
+  text-align: center;
+  
+}
+
+.coffee-shop-text {
+  
+}
+
+
+.coffee-shop-block {
+  justify-content: space-between;
+  display: flex;  
+  }
+
+.menu {
+font-family: "ForumRegular", "Arial", sans-serif;
+font-size: 40px;
+color: #BB945F;
+font-weight: 200;
+}
+
+.coffe-menu {
+  text-align: left;
+}
+
+.coffee-shop-price {
+  display: grid;
+}
+
+.menu-line {
+  border-bottom: 1px solid #BB945F;
+  width: 100px;
+  vertical-align: middle;
+} 
+
+table {
+  width: 438px;
+  height: 520px;
+}
+
+.contacts {
+  width: 1440px;
+  height: 575px;
+}
+
+.contact-block {
+
+}
+
+.contact-text {
+ width: 503px;
+ height: 380px;
+}
+
+.contact-img {
+ width: 696px;
+ height: 414px;
+}
+
+.librarycard {
+  width: 1440px;
+  height: 614px;
+}
+
+.footer {
+  width: 1440px;
+  height: 250px;
+  background-color: black;
+}
