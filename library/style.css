@@ -133,15 +133,22 @@ h2 {
 .favorites-block {
   width: 1440px;
   height: 1150px;
+  margin: 0 20px;
 }
 
 .favorites-block-text {
-  display: inline-block;
+ width: 1400px;
+ height: 575px;
+ display: flex;
+ justify-content: space-between;
+
 }
 
 .favorites-book {
   width: 590px;
   height: 555px;
+  text-align: right;
+  
 }
 
 .book {
@@ -149,6 +156,7 @@ h2 {
   height: 300px;
   text-align: right;
   vertical-align: bottom;
+ 
 }
 
 .favorites-text {
