@@ -18,6 +18,26 @@ html {
   font-weight: 400;
 }
 
+@font-face { 
+  font-family: "InterBold";
+  src: url("../library/fonts/InterBold/InterBold.eot");
+  src: url("../library/fonts/InterBold/InterBold.eot")format("embedded-opentype"),
+  url("../library/fonts/InterBold/InterBold.woff") format("woff"),
+  url("../library/fonts/InterBold/InterBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: "InterRegular";
+  src: url("../library/fonts/InterRegular/InterRegular.eot");
+  src: url("../library/fonts/InterRegular/InterRegular.eot")format("embedded-opentype"),
+  url("../library/fonts/InterRegular/InterRegular.woff") format("woff"),
+  url("../library/fonts/InterRegular/InterRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 .header {
   background-color: black;
   width: 1440px;
@@ -30,6 +50,7 @@ html {
 
 li {
   display: inline;
+ 
 }
 
 .header-item {
@@ -40,14 +61,16 @@ li {
   font-size: 30px;
   font-weight: 30;
   line-height: 70px;
+  
 }
 
 .nav-item {
  color: #fff;
  font-family: "ForumRegular", "Arial", sans-serif;
  font-size: 20px;
-
+ 
 }
+
 
 .nav-list {
  width: 720px;
@@ -55,7 +78,7 @@ li {
  text-align: justify;
  float: right;
  line-height: 70px;
-
+ 
 }
 
 .welcome {
@@ -67,14 +90,23 @@ li {
 .welcome-text {
   width: 600px;
   height: 220px;
+  position: absolute;
+  background-color: #0C0C0E;
+}
+
+.welcome-text h1 {
+  width: 520px;
+  height: 150px;
   font-family: "ForumRegular", "Arial", sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: azure;
-  background-color: #0C0C0E;
+  
   text-align: center;
   position: absolute;
   top: 220px;
+  padding-top: 40px;
+  
 } 
  
 .about {
@@ -93,14 +125,16 @@ li {
 }
 
 .line {
-  border-bottom: 1px solid #0C0C0E;
   width: 50px;
+  border-bottom: 1px solid #0C0C0E;
+  padding-bottom: 20px;
 }
 
 .about-text {
   font-size: 20px;
   margin-top: 125px;
   margin-bottom: 20px;
+  font-family: "InterRegular", "Arial", sans-serif;
 }
 
 .about-image {
@@ -121,6 +155,7 @@ h2 {
  color: #0C0C0E;
  font-weight: 200;
  display: inline-block;
+
 }
 
 .favorites {
@@ -144,19 +179,40 @@ h2 {
 
 }
 
+.favorites-text-staff {
+  width: 102px;
+  height: 40px;
+}
+
+.staff {
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.line-staff {
+  width: 60px;
+  border-bottom: 1px solid #BB945F;
+  padding-bottom: 5px;
+}
+
+.book-name{
+font-family: "InterBold",  "Arial", sans-serif;
+font-size: 15px;
+font-weight: 200;
+line-height: 30px;
+}
+
 .favorites-book {
   width: 590px;
   height: 555px;
-  text-align: right;
-  
+  text-align: right;  
+
 }
 
 .book {
   width: 200px;
   height: 300px;
-  text-align: right;
-  vertical-align: bottom;
- 
 }
 
 .favorites-text {
@@ -165,6 +221,8 @@ h2 {
   text-align: left;
   border: 1px solid black;
   padding: 10px;
+  position: absolute;
+  line-height: 30px;
 }
  
 .text-uppercase {
@@ -173,6 +231,12 @@ h2 {
 
 .text-capitalize {
   text-transform: capitalize;
+  font-family: "InterRegular", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 30px;
+  
+  
 }
 
 .coffee-shop {
@@ -224,7 +288,10 @@ table {
 }
 
 .contact-block {
-
+width: 1400px;
+height: 414px;
+justify-content: space-between;
+display: flex;
 }
 
 .contact-text {
@@ -237,13 +304,65 @@ table {
  height: 414px;
 }
 
-.librarycard {
+.library-card {
   width: 1440px;
   height: 614px;
+}
+
+.library-card-block {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.card-block {
+  width: 600px;
+  height: 453px;
+}
+
+.card {
+  width: 600px;
+  height: 386px;
+  border: 1px solid #BB945F;
+
+}
+
+.card-body {
+  background-color: #BB945F;
+  width: 560px;
+  height: 272px;
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 30px;
+
+}
+
+.card-form-body {
+  width: 520px;
+  height: 66px;
+}
+
+.card-text {
+  width: 456px;
+  height: 224px;
 }
 
 .footer {
   width: 1440px;
   height: 250px;
   background-color: black;
+}
+
+.footer-info {
+  width: 1400px;
+  height: 90px;
+}
+
+.footer-line {
+  border-bottom: 1px solid #FFFFFF;
+  width: 1400px;
+  vertical-align: middle;
+} 
+
+.footer-personal {
+  width: 1400px;
+  height: 22px;
 }
