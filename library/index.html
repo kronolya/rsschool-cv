@@ -12,12 +12,12 @@
 </head>
 <body>
   <header class="header">
-    <h3 class="header-item">Brooklyn Public Library</h3>
+    <h1 class="header-item">Brooklyn Public Library</h1>
     <nav>
       <ul class="nav-list">
         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
         <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
-        <li class="nav-item"><a href="#coffee-chop" class="nav-link">Coffee shop</a></li>
+        <li class="nav-item"><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
         <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
         <li class="nav-item"><a href="#library-card" class="nav-link">Library card</a></li>
       </ul>
@@ -26,13 +26,13 @@
   <main>
     <section class="welcome">
       <div class="welcome-text">
-        <h1>WELCOME<br>TO THE BROOKLYN<br>LIBRARY</h1>
+        <p>WELCOME<br>TO THE BROOKLYN<br>LIBRARY</p>
       </div>
       <img src="image/Welcome1.png" alt="image welcome">
     </section> 
     <section class="about">
-      <div class="about-block">
-       <h2>About</h2>
+      <div class="section-name">
+       <h2 id="about">About</h2>
        <div class="line"></div>
       </div> 
       <p class="about-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
@@ -41,12 +41,28 @@
         <img class="image" src="image/image2.png" alt="image2 about">
         <img class="image" src="image/image3.png" alt="image3 about">
       </div>
+      <div class="pagination">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a> 
+      </div>
     </section>
     <section class="favorites">
-      <div>
-       <h2>Favorites</h2>
+      <div class="section-name">
+       <h2 id="favorites">Favorites</h2>
        <div class="line"></div>
       </div> 
+      <p>Pick favorites of season</p>
+      <form class="season">
+        <input type="radio" name="season1" value="Winter">
+        <label for="season1">Winter</label>
+        <input type="radio" name="season2" value="Spring">
+        <label for="season2">Spring</label>
+        <input type="radio" name="season3" value="Summer">
+        <label for="season3">Summer</label>
+        <input type="radio" name="season4" value="Autumn">
+        <label for="season4">Autumn</label>
+      </form>
       <div class="favorites-block">
         <div class="favorites-block-text">
           <div class="favorites-book"> 
@@ -55,13 +71,10 @@
                <p class="staff">Staff Picks</p>
                <div class="line-staff"></div>
               </div>
-              <div class="book-name">
-               <p class="text-uppercase">The Book Eaters</p>
-               <p>By Sunyi Dean</p>
-              </div> 
+              <p class="text-uppercase">The Book Eaters<br><span class="book-author">By Sunyi Dean</span></p>
               <p class="text-capitalize">An Unusual Sci-fi Story About A Book<br>Eater Woman Who Tries Desperately To<br>Save Her Dangerous Mind-Eater Son<br>From Tradition And Certain Death.<br>Complete With Dysfunctional Family<br>Values, Light Sapphic Romance, And A<br>Strong, Complex Protagonist. Not For<br>The Faint Of Heart.</p>
               <form>
-                <input type="button" value="Buy">
+                <input class="book-input" type="button" value="Buy">
               </form>
             </div>
             <img class="book" src="image/book1.png" alt="image book">
@@ -72,13 +85,10 @@
                <p class="staff">Staff Picks</p>
                <div class="line-staff"></div>
               </div>
-              <div class="book-name"> 
-               <p class="text-uppercase">Cackle</p>
-               <p>By Rachel Harrison</p>
-              </div>
+              <p class="text-uppercase">Cackle<br><span class="book-author">By Rachel Harrison</span></p>
               <p class="text-capitalize">Are your Halloween movies of choice<br>The Witches of Eastwick and Practical<br>Magic? Look no further than here -<br>where a woman recovering from a<br>breakup moves to a quaint town in<br>upstate New York and befriends a<br>beautiful witch.</p>
               <form>
-               <input type="button" value="Buy">
+               <input class="book-input" type="button" value="Buy">
               </form>           
             </div>
             <img class="book" src="image/book2.png" alt="image book">
@@ -91,16 +101,13 @@
                <p class="staff">Staff Picks</p>
                <div class="line-staff"></div>
               </div>
-              <div class="book-name"> 
-               <p class="text-uppercase">Dante: Poet of the Secular World</p>
-               <p>By Erich Auerbach</p>
-              </div>
+              <p class="text-uppercase">Dante: Poet of the Secular World<br><span class="book-author">By Erich Auerbach</span></p>
               <p class="text-capitalize">Auerbach's engaging book places the<br>'Comedy' within the tradition of epic,<br>tragedy, and philosophy in general,<br>arguing for Dante's uniqueness as one<br>who raised the individual and his<br>drama of soul into something of<br>divine significance—an inspired<br>introduction to Dante's main themes.</p>
               <form>
-               <input type="button" value="Buy">
+               <input class="book-input" type="button" value="Buy">
               </form>           
             </div>
-            <img src="image/book3.png" alt="image book">
+            <img class="book" src="image/book3.png" alt="image book">
           </div> 
           <div class="favorites-book"> 
             <div class="favorites-text">
@@ -108,13 +115,10 @@
                <p class="staff">Staff Picks</p>
                <div class="line-staff"></div> 
               </div>
-              <div class="book-name">
-               <p class="text-uppercase">The Last Queen</p>
-               <p>By Clive Irving</p>
-              </div>
+              <p class="text-uppercase">The Last Queen<br><span class="book-author">By Clive Irving</span></p>
               <p class="text-capitalize">A timely and revelatory new<br>biography of Queen Elizabeth (and her<br>family) exploring how the Windsors<br>have evolved and thrived as the<br>modern world has changed around<br>them.</p>
               <form>
-               <input type="button" value="Own">
+               <input class="book-input" type="button" value="Own">
               </form>            
             </div>
             <img class="book" src="image/book4.png" alt="image book">
@@ -123,8 +127,8 @@
       </div>  
     </section>
     <section class="coffee-shop">
-      <div>
-       <h2>Coffee Shop</h2>
+      <div class="section-name">
+       <h2 id="coffee-shop">Coffee Shop</h2>
        <div class="line"></div>
       </div>
       <p class="coffee-shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
@@ -237,24 +241,24 @@
       </div>
     </section>
     <section class="contacts">
-      <div>
-        <h2>Our Contacts</h2>
+      <div class="section-name">
+        <h2 id="contact">Our Contacts</h2>
         <div class="line"></div>
       </div>
       <div>
         <div class="contact-block">
-          <div class="contact-block-text">  
-            <p class="contact-text">For all Library inquiries:</p>
+          <div class="contact-text">  
+            <span class="text-bold">For all Library inquiries:</span>
             <p>Please call (617) 730-2370<br>For TTY service, please call (617) 730-2370<br>Putterham Library: (617) 730-2385</p>
-            <p>Senior Staff<br>Library Director: Amanda Hirst</p>
+            <p>Senior Staff<br>Library Director: <span class="text-bold">Amanda Hirst</span></p>
           </div>
           <img class="contact-img" src="image/contact-map.png" alt="image map contact">
         </div>
       </div>
     </section>
     <section class="library-card">
-      <div>
-        <h2>Digital Library Cards</h2>
+      <div class="section-name">
+        <h2 id="library-card">Digital Library Cards</h2>
         <div class="line"></div>
       </div>
       <div class="library-card-block">
