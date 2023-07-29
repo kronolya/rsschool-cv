@@ -13,20 +13,23 @@
 <body>
   <header class="header">
     <h1 class="header-item">Brooklyn Public Library</h1>
-    <nav>
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
-        <li class="nav-item"><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
-        <li class="nav-item"><a href="#library-card" class="nav-link">Library card</a></li>
-      </ul>
-    </nav>
+   <div class="header-menu">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#favorites" class="nav-link">Favorites</a></li>
+          <li><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
+          <li><a href="#contact" class="nav-link">Contacts</a></li>
+          <li><a href="#library-card" class="nav-link">Library card</a></li>
+        </ul>
+      </nav>
+      <img class="header-icon" src="icon/icon_profile.png" alt="icon profile">
+    </div>
   </header>
   <main>
     <section class="welcome">
       <div class="welcome-text">
-        <p>WELCOME<br>TO THE BROOKLYN<br>LIBRARY</p>
+        <h3>WELCOME<br>TO THE BROOKLYN<br>LIBRARY</h3>
       </div>
       <img src="image/Welcome1.png" alt="image welcome">
     </section> 
@@ -52,16 +55,24 @@
        <h2 id="favorites">Favorites</h2>
        <div class="line"></div>
       </div> 
-      <p>Pick favorites of season</p>
-      <form class="season">
-        <input type="radio" name="season1" value="Winter">
-        <label for="season1">Winter</label>
-        <input type="radio" name="season2" value="Spring">
-        <label for="season2">Spring</label>
-        <input type="radio" name="season3" value="Summer">
-        <label for="season3">Summer</label>
-        <input type="radio" name="season4" value="Autumn">
-        <label for="season4">Autumn</label>
+      <h3>Pick favorites of season</h3>
+      <form class="season-radio">
+        <label>
+          <input type="radio" name="season" value="Winter" class="season-radio-btn1">
+         Winter
+        </label>
+        <label>
+         <input type="radio" name="season" value="Spring" class="season-radio-btn">
+         Spring  
+        </label>
+        <label>
+         <input type="radio" name="season" value="Summer" class="season-radio-btn">
+         Summer 
+        </label>
+        <label>
+         <input type="radio" name="season" value="Autumn" class="season-radio-btn">
+         Autumn
+        </label>
       </form>
       <div class="favorites-block">
         <div class="favorites-block-text">
