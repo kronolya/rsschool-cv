@@ -12,18 +12,20 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="header-item">Brooklyn Public Library</h1>
-   <div class="header-menu">
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#favorites" class="nav-link">Favorites</a></li>
-          <li><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
-          <li><a href="#contact" class="nav-link">Contacts</a></li>
-          <li><a href="#library-card" class="nav-link">Library card</a></li>
-        </ul>
-      </nav>
-      <img class="header-icon" src="icon/icon_profile.png" alt="icon profile">
+    <div class="container">
+      <h1 class="header-item">Brooklyn Public Library</h1>
+      <div class="header-menu">
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#favorites" class="nav-link">Favorites</a></li>
+            <li><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
+            <li><a href="#contact" class="nav-link">Contacts</a></li>
+            <li><a href="#library-card" class="nav-link">Library card</a></li>
+          </ul>
+        </nav>
+        <img class="header-icon" src="icon/icon_profile.svg" alt="icon profile">
+      </div>
     </div>
   </header>
   <main>
@@ -39,7 +41,7 @@
        <div class="line"></div>
       </div> 
       <p class="about-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
-      <div class="about-image">
+      <div class="container">
         <img class="image" src="image/image1.png" alt="image1 about">
         <img class="image" src="image/image2.png" alt="image2 about">
         <img class="image" src="image/image3.png" alt="image3 about">
@@ -74,7 +76,7 @@
          Autumn
         </label>
       </form>
-      <div class="favorites-block">
+      <div class="container">
         <div class="favorites-block-text">
           <div class="favorites-book"> 
             <div class="favorites-text">
@@ -142,111 +144,113 @@
        <h2 id="coffee-shop">Coffee Shop</h2>
        <div class="line"></div>
       </div>
-      <p class="coffee-shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
-        <br>You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts<br>
-        from bakery.
-      </p>
-      <div class="coffee-shop-block">
-        <div class="coffee-shop-menu">
-          <h3 class="menu">Coffee & Tea</h3>
-          <div class="coffee-shop-price">
-            <table>
-              <tbody>
-                <tr>
-                  <th class="coffee-menu">Cold Brew Coffee</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$3</td>
-                </tr>
-                <tr>
-                  <th class="coffee-menu">French Press Pot</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$5</td>
-                </tr>
-                <tr>
-                  <th class="coffee-menu">Espresso</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$2</td>
-                </tr>
-                <tr>
-                  <th class="coffee-menu">Cappuccino</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$2</td>
-                </tr>
-                <tr>  
-                  <th class="coffee-menu">Hot tea</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$2</td>
-                </tr>
-                <tr>
-                  <th class="coffee-menu">Cold tea</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$2</td>
-                </tr>
-              </tbody>
-            </table>
+      <div class="container">
+        <p class="coffee-shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
+          <br>You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts<br>
+          from bakery.
+        </p>
+        <div class="coffee-shop-block">
+          <div class="coffee-shop-menu">
+            <h3 class="menu">Coffee & Tea</h3>
+            <div class="coffee-shop-price">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="coffee-menu">Cold Brew Coffee</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$3</td>
+                  </tr>
+                  <tr>
+                    <th class="coffee-menu">French Press Pot</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$5</td>
+                  </tr>
+                  <tr>
+                    <th class="coffee-menu">Espresso</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$2</td>
+                  </tr>
+                  <tr>
+                    <th class="coffee-menu">Cappuccino</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$2</td>
+                  </tr>
+                  <tr>  
+                    <th class="coffee-menu">Hot tea</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$2</td>
+                  </tr>
+                  <tr>
+                    <th class="coffee-menu">Cold tea</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
-        <div class="coffee-shop-menu">
-          <h3 class="menu">Desserts & Cakes</h3>
-          <div class="coffee-shop-price">
-            <table>
-              <tbody>
-                <tr>
-                  <th>Forest Gateau</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$16</td>
-                </tr>
-                <tr>
-                  <th>Blue Moon</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$16</td>
-                </tr>
-                <tr>
-                  <th>Truffle Cake</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$15</td>
-                </tr>
-                <tr>
-                  <th>Chocolate Cake</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$18</td>
-                </tr>
-                <tr>
-                  <th>Poet's Dream Cake</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$16</td>
-                </tr>
-                <tr>
-                  <th>Pineapple Cake</th>
-                  <td>
-                    <div class="menu-line"></div>
-                  </td>
-                  <td>$14</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="coffee-shop-menu">
+            <h3 class="menu">Desserts & Cakes</h3>
+            <div class="coffee-shop-price">
+              <table>
+                <tbody>
+                  <tr>
+                    <th>Forest Gateau</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <th>Blue Moon</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <th>Truffle Cake</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$15</td>
+                  </tr>
+                  <tr>
+                    <th>Chocolate Cake</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$18</td>
+                  </tr>
+                  <tr>
+                    <th>Poet's Dream Cake</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <th>Pineapple Cake</th>
+                    <td>
+                      <div class="menu-line"></div>
+                    </td>
+                    <td>$14</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -256,12 +260,12 @@
         <h2 id="contact">Our Contacts</h2>
         <div class="line"></div>
       </div>
-      <div>
+      <div class="container">
         <div class="contact-block">
           <div class="contact-text">  
-            <span class="text-bold">For all Library inquiries:</span>
-            <p>Please call (617) 730-2370<br>For TTY service, please call (617) 730-2370<br>Putterham Library: (617) 730-2385</p>
-            <p>Senior Staff<br>Library Director: <span class="text-bold">Amanda Hirst</span></p>
+            <p class="text-bold">For all Library inquiries:</p>
+            <p class="contact-text-margin">Please call (617) 730-2370<br>For TTY service, please call (617) 730-2370<br>Putterham Library: (617) 730-2385</p>
+            <p class="text-bold">Senior Staff<br><span class="text-regular">Library Director:</span> Amanda Hirst</p>
           </div>
           <img class="contact-img" src="image/contact-map.png" alt="image map contact">
         </div>
@@ -272,39 +276,57 @@
         <h2 id="library-card">Digital Library Cards</h2>
         <div class="line"></div>
       </div>
-      <div class="library-card-block">
-        <div class="card-block">
-          <p>Find your Library card</p>
-          <div class="card">
-            <div class="card-body">
-              <p>Brooklyn Public Library</p>
-              <form class="card-form-body">
-                <input type="text" id="name" name="Reader's name"><br>
-                <input type="number" id="card-number" name="Card number">
+      <div class="container">
+        <div class="library-card-block">
+          <div class="card-block">
+            <p>Find your Library card</p>
+            <div class="card">
+              <div class="card-body">
+                <p>Brooklyn Public Library</p>
+                <form class="card-form-body">
+                  <input type="text" id="name" name="Reader's name"><br>
+                  <input type="number" id="card-number" name="Card number">
+                </form>
+              </div>
+              <form>
+                <input type="button" value="Check the card">
               </form>
             </div>
+          </div>
+          <div class="card-text">
+            <p>Get a reader card</p>
+            <p>You will be able to see a reader card after<br>logging into account or you can register a new<br>account</p>
             <form>
-              <input type="button" value="Check the card">
+              <input type="button" value="Sign Up">
+              <input type="button" value="Log in">
             </form>
           </div>
-        </div>
-        <div class="card-text">
-          <p>Get a reader card</p>
-          <p>You will be able to see a reader card after<br>logging into account or you can register a new<br>account</p>
-          <form>
-            <input type="button" value="Sign Up">
-            <input type="button" value="Log in">
-          </form>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-info"></div>
-    <div class="footer-line"></div>
-    <div class="footer-personal">
-      <p>2023</p>
-      
+    <div class="container">
+      <div class="footer-info">
+        <div class="footer-info-part1">
+         <a class="address" href="https://www.google.com/maps/search/286+Cadman+Plaza,+New+York,+NY+11238,+United+States/@40.6956337,-73.9928847,17z/data=!3m1!4b1?entry=ttu">286 Cadman Plaza, New York,<br>NY 11238, United States</a>
+         <p>Mon - Fri<br>08:00 am - 07:00 pm</p>
+        </div>
+        <div class="footer-info-part2">
+          <ul class="footer-icon">
+            <li><a href="#"><img src="icon/u_twitter-alt.svg" alt="icon twitter"></a></li>
+            <li><a href="#"><img src="icon/u_instagram.svg" alt="icon instagram"></a></li>
+            <li><a href="#"><img src="icon/u_facebook-f.svg" alt="icon facebook"></a></li>
+          </ul>
+          <p>Sat - Sun<br>10:00 am - 06:00 pm</p>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-personal">
+        <p>2023</p>
+        <a class="footer-link" href="https://rs.school/">The Rolling Scopes School</a>
+        <a class="footer-link" href="https://github.com/kronolya">kronolya</a>
+      </div>
     </div>
   </footer>
 </body>
