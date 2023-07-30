@@ -83,6 +83,10 @@ li {
  text-decoration: none;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .nav-list {
  width: 720px;
  height: 90px;  
@@ -161,6 +165,27 @@ li {
   height: 560px;
 }
 
+.pagination {
+  width: 68px;
+  height: 16px;
+  display: inline-block;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: #0C0C0E;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: #BB945F;
+}
+
 h2 {
  font-family: "ForumRegular", "Arial", sans-serif;
  font-size: 40px;
@@ -184,13 +209,20 @@ h2 {
 }
 
 .season-radio {
-  font-family: "InterBold", "Arial", sans-serif;
-  font-size: 20px;
   text-align: left;
   width: 700px;
   height: 24px;
   margin-bottom: 40px;
   margin-left: 20px;
+}
+
+.favorites-radio {
+  font-family: "InterRegular", "Arial", sans-serif;
+  font-size: 20px;
+}
+
+.favorites-radio:hover {
+  font-family: "InterBold", "Arial", sans-serif;
 }
 
 .season-radio-btn {
@@ -259,6 +291,11 @@ h2 {
   border: 1px solid black;
   padding: 10px;
   line-height: 30px;
+
+}
+
+.favorites-btn {
+  
 }
 
 .book-btn {
@@ -268,6 +305,11 @@ h2 {
   font-size: 10px;
   letter-spacing: 1px;
   display: block;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #BB945F;
 }
  
 .text-uppercase {
@@ -427,6 +469,14 @@ table {
   margin-top: 25px;
   border-radius: 10px;
   border: #BB945F;
+}
+
+::placeholder {
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 2%;
+  padding-left: 20px;
 }
 
 .card-btn {
