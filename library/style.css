@@ -261,7 +261,7 @@ h2 {
   line-height: 30px;
 }
 
-.book-input {
+.book-btn {
   width: 75px;
   height: 30px;
   font-family: "InterBold";
@@ -295,13 +295,15 @@ h2 {
 }
 
 .coffee-shop-text {
-  font-family: "InterRegular";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-inter {
+  font-family: "InterRegular", "Arial", sans-serif;
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 2px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
 }
 
 .coffee-shop-block {
@@ -317,7 +319,6 @@ h2 {
   font-weight: 200;
   line-height: 40px;
   letter-spacing: 2px;
-
 }
 
 .coffee-menu {
@@ -387,7 +388,7 @@ table {
 }
 
 .library-card-block {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
@@ -395,30 +396,94 @@ table {
 .card-block {
   width: 600px;
   height: 453px;
+  text-align: center;
+}
+
+.card-block-name {
+  font-family: "InterRegular", "Arial", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2%;
+  font-weight: 100;
+  margin-bottom: 30px;
 }
 
 .card {
   width: 600px;
   height: 386px;
   border: 1px solid #BB945F;
+  padding: 20px 20px 0 20px;
 }
 
 .card-body {
   background-color: #BB945F;
   width: 560px;
   height: 272px;
-  font-family: "ForumRegular", "Arial", sans-serif;
-  font-size: 30px;
+  display: inline-block;
 }
 
-.card-form-body {
+.card-input {
   width: 520px;
   height: 66px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: #BB945F;
+}
+
+.card-btn {
+  width: 242px;
+  height: 44px;
+  margin-top: 20px;
+  font-family: "InterBold", "Arial", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .card-text {
   width: 456px;
   height: 224px;
+  text-align: right;
+}
+
+.card-text-name {
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.card-text-right {
+  font-family: "ForumRegular", "Arial", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: right;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.text-inter-card {
+  font-family: "InterRegular", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  margin: 35px 0px;
+}
+  
+.card-text-form-btn {
+  width: 170px;
+  height: 26.6px;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.card-text-btn {
+  width: 75px;
+  height: 26.6px;
+  font-family: "InterBold", "Arial", sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
 
 .footer {
@@ -442,11 +507,9 @@ table {
   font-weight: 100;
   padding-top: 10px;
   margin-bottom: 20px;
- 
 }
 
 .footer-info-part2 {
-   
   display: flex;
   justify-content: space-between;
   text-align: right;
@@ -457,8 +520,6 @@ table {
   text-decoration: none;
   color: #FFFFFF;
   text-align: left;
-  
-
 }
 
 .footer-line {
@@ -474,12 +535,10 @@ table {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
- 
 }
 
 .footer-icon {
   display: inline-block;
-  
 }
 
 .footer-link {
@@ -490,5 +549,4 @@ table {
   letter-spacing: 2px;
   font-weight: 100;
   text-decoration: none;
- 
 }

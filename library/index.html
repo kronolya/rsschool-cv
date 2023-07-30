@@ -87,7 +87,7 @@
               <p class="text-uppercase">The Book Eaters<br><span class="book-author">By Sunyi Dean</span></p>
               <p class="text-capitalize">An Unusual Sci-fi Story About A Book<br>Eater Woman Who Tries Desperately To<br>Save Her Dangerous Mind-Eater Son<br>From Tradition And Certain Death.<br>Complete With Dysfunctional Family<br>Values, Light Sapphic Romance, And A<br>Strong, Complex Protagonist. Not For<br>The Faint Of Heart.</p>
               <form>
-                <input class="book-input" type="button" value="Buy">
+                <button class="book-btn" type="button" value="Buy">Buy</button>
               </form>
             </div>
             <img class="book" src="image/book1.png" alt="image book">
@@ -101,7 +101,7 @@
               <p class="text-uppercase">Cackle<br><span class="book-author">By Rachel Harrison</span></p>
               <p class="text-capitalize">Are your Halloween movies of choice<br>The Witches of Eastwick and Practical<br>Magic? Look no further than here -<br>where a woman recovering from a<br>breakup moves to a quaint town in<br>upstate New York and befriends a<br>beautiful witch.</p>
               <form>
-               <input class="book-input" type="button" value="Buy">
+               <button class="book-btn" type="button" value="Buy">Buy</button>
               </form>           
             </div>
             <img class="book" src="image/book2.png" alt="image book">
@@ -117,7 +117,7 @@
               <p class="text-uppercase">Dante: Poet of the Secular World<br><span class="book-author">By Erich Auerbach</span></p>
               <p class="text-capitalize">Auerbach's engaging book places the<br>'Comedy' within the tradition of epic,<br>tragedy, and philosophy in general,<br>arguing for Dante's uniqueness as one<br>who raised the individual and his<br>drama of soul into something of<br>divine significance—an inspired<br>introduction to Dante's main themes.</p>
               <form>
-               <input class="book-input" type="button" value="Buy">
+               <button class="book-btn" type="button" value="Buy">Buy</button>
               </form>           
             </div>
             <img class="book" src="image/book3.png" alt="image book">
@@ -131,7 +131,7 @@
               <p class="text-uppercase">The Last Queen<br><span class="book-author">By Clive Irving</span></p>
               <p class="text-capitalize">A timely and revelatory new<br>biography of Queen Elizabeth (and her<br>family) exploring how the Windsors<br>have evolved and thrived as the<br>modern world has changed around<br>them.</p>
               <form>
-               <input class="book-input" type="button" value="Own">
+               <button class="book-btn" type="button" value="Own">Own</button>
               </form>            
             </div>
             <img class="book" src="image/book4.png" alt="image book">
@@ -145,10 +145,12 @@
        <div class="line"></div>
       </div>
       <div class="container">
-        <p class="coffee-shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
+        <div class="coffee-shop-text">
+          <p class="text-inter">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
           <br>You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts<br>
           from bakery.
-        </p>
+          </p>
+        </div> 
         <div class="coffee-shop-block">
           <div class="coffee-shop-menu">
             <h3 class="menu">Coffee & Tea</h3>
@@ -265,7 +267,7 @@
           <div class="contact-text">  
             <p class="text-bold">For all Library inquiries:</p>
             <p class="contact-text-margin">Please call (617) 730-2370<br>For TTY service, please call (617) 730-2370<br>Putterham Library: (617) 730-2385</p>
-            <p class="text-bold">Senior Staff<br><span class="text-regular">Library Director:</span> Amanda Hirst</p>
+            <p class="text-bold">Senior Staff<br><span class="text-inter">Library Director:</span> Amanda Hirst</p>
           </div>
           <img class="contact-img" src="image/contact-map.png" alt="image map contact">
         </div>
@@ -279,26 +281,26 @@
       <div class="container">
         <div class="library-card-block">
           <div class="card-block">
-            <p>Find your Library card</p>
+            <p class="card-block-name">Find your Library card</p>
             <div class="card">
               <div class="card-body">
-                <p>Brooklyn Public Library</p>
+                <p class="card-text-name">Brooklyn Public Library</p>
                 <form class="card-form-body">
-                  <input type="text" id="name" name="Reader's name"><br>
-                  <input type="number" id="card-number" name="Card number">
+                  <input class="card-input" type="text" id="name" name="Reader's name"><br>
+                  <input class="card-input" type="number" id="card-number" name="Card number">
                 </form>
               </div>
               <form>
-                <input type="button" value="Check the card">
+                <button class="card-btn" type="button" value="Check the card">Check the card</button>
               </form>
             </div>
           </div>
           <div class="card-text">
-            <p>Get a reader card</p>
-            <p>You will be able to see a reader card after<br>logging into account or you can register a new<br>account</p>
-            <form>
-              <input type="button" value="Sign Up">
-              <input type="button" value="Log in">
+            <p class="card-text-right">Get a reader card</p>
+            <p class="text-inter-card">You will be able to see a reader card after<br>logging into account or you can register a new<br>account</p>
+            <form class="card-text-form-btn">
+              <button class="card-text-btn" type="button" value="Sign Up">Sign Up</button>
+              <button class="card-text-btn" type="button" value="Log in">Log in</button>
             </form>
           </div>
         </div>
@@ -314,9 +316,9 @@
         </div>
         <div class="footer-info-part2">
           <ul class="footer-icon">
-            <li><a href="#"><img src="icon/u_twitter-alt.svg" alt="icon twitter"></a></li>
-            <li><a href="#"><img src="icon/u_instagram.svg" alt="icon instagram"></a></li>
-            <li><a href="#"><img src="icon/u_facebook-f.svg" alt="icon facebook"></a></li>
+            <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Frollingscopes"><img src="icon/u_twitter-alt.svg" alt="icon twitter"></a></li>
+            <li><a href="https://www.instagram.com/explore/tags/rollingscopes/"><img src="icon/u_instagram.svg" alt="icon instagram"></a></li>
+            <li><a href="https://www.facebook.com/groups/TheRollingScopes/"><img src="icon/u_facebook-f.svg" alt="icon facebook"></a></li>
           </ul>
           <p>Sat - Sun<br>10:00 am - 06:00 pm</p>
         </div>
