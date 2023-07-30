@@ -166,11 +166,14 @@ li {
 }
 
 .pagination {
-  width: 68px;
-  height: 16px;
   display: inline-block;
   margin-top: 40px;
-  text-align: justify;
+  justify-content: space-between;
+}
+
+.about-change {
+  padding: 15px 15px 15px 15px;
+  display: block;
 }
 
 .circle {
@@ -180,6 +183,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .circle:hover {
@@ -292,10 +296,6 @@ h2 {
   padding: 10px;
   line-height: 30px;
 
-}
-
-.favorites-btn {
-  
 }
 
 .book-btn {
@@ -564,7 +564,6 @@ table {
   justify-content: space-between;
   text-align: right;
 }
-
 
 .address {
   text-decoration: none;
